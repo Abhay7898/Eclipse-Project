@@ -13,6 +13,7 @@ public class TwoArrayCheck {
 						flage=true;
 						break;
 					}
+					
 				}
 				if(!flage) {
 					break;
