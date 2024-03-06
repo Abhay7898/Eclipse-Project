@@ -2,26 +2,29 @@ package stringQuestionForPlacement;
 
 public class AnagramProgram {
 	public static void main(String[] args) {
-		 String one="Dormitory"; 
-		 String two ="Dirty Room";
-		 boolean flage=false;
-		 char oneArr[]=one.toLowerCase().toCharArray();
-		 char twoArr[]=two.toLowerCase().toCharArray();
-		 for(int i=0;i<oneArr.length;i++) {
-			 for (int j = 0; j < twoArr.length; j++) {
-				 flage=false;
-				if(oneArr[i]==' '||twoArr[j]==' ') {
-					continue;
+		String one = "Dormitory";
+		String two = "Dirty Rofm";
+		boolean flage = false;
+		char oneArr[] = one.replaceAll("\\s", "").toLowerCase().toCharArray();
+		char twoArr[] = two.replaceAll("\\s", "").toLowerCase().toCharArray();
+		if (oneArr.length == twoArr.length) {
+			for (int i = 0; i < oneArr.length; i++) {
+				flage = false;
+				for (int j = 0; j < twoArr.length; j++) {
+					if (oneArr[i] == twoArr[j]) {
+						twoArr[j]='*';
+						flage = true;
+						break;
+					}
 				}
-				if(oneArr[i]==twoArr[j]) {
-					flage=true;
+				if(!flage) {
 					break;
 				}
 			}
-		 }
-		 if(flage==true) {
-			 System.out.println("yes");
-		 }else {
+		}
+		if (flage == true) {
+			System.out.println("yes");
+		} else {
 			System.out.println("No");
 		}
 	}
