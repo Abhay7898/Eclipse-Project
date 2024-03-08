@@ -6,7 +6,7 @@ import file.opretion.With_File_Class;
 
 public class ToStopWordRemove {
 	public static String removeStopWord(String inputString, String filePath) throws FileNotFoundException {
-		String [] words=inputString.toLowerCase().split(" ");
+		String [] words=inputString.toLowerCase().split("\\s");
 		String s= With_File_Class.getFileContend(filePath);
 		String[] stopWord=s.toLowerCase().split(" ");
 		inputString="";

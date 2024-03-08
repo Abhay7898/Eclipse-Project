@@ -3,7 +3,7 @@ package stringQuestionForPlacement;
 public class AnagramProgram {
 	public static void main(String[] args) {
 		String one = "Dormitory";
-		String two = "Dirty Rofm";
+		String two = "Diroty Rom";
 		boolean flage = false;
 		char oneArr[] = one.replaceAll("\\s", "").toLowerCase().toCharArray();
 		char twoArr[] = two.replaceAll("\\s", "").toLowerCase().toCharArray();
@@ -12,12 +12,12 @@ public class AnagramProgram {
 				flage = false;
 				for (int j = 0; j < twoArr.length; j++) {
 					if (oneArr[i] == twoArr[j]) {
-						twoArr[j]='*';
+						twoArr[j] = '*';
 						flage = true;
 						break;
 					}
 				}
-				if(!flage) {
+				if (!flage) {
 					break;
 				}
 			}
