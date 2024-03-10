@@ -3,7 +3,7 @@ package arrayProgramForPlacement;
 public class TwoArrayCheck {
 	public static void main(String[] args) {
 		int[] arrayOne = { 2, 5, 1, 0, 4 };
-		int[] arrayTwo = { 2, 5, 1, 0, 4};
+		int[] arrayTwo = { 2,0, 1, 5, 4};
 		boolean flage = false;
 		if (arrayOne.length == arrayTwo.length) {
 			for (int i = 0; i < arrayOne.length; i++) {

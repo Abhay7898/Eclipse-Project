@@ -2,7 +2,7 @@ package integerQuestionForPlacement;
 
 public class ArmstrongNumberCheck {
 	public static void main(String[] args) {
-		int n =152;
+		int n =131;
 		int amstrong=n;
 		int total=0;
 		while(n!=0) {
