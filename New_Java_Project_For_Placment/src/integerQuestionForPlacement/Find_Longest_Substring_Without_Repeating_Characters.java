@@ -20,6 +20,8 @@ public class Find_Longest_Substring_Without_Repeating_Characters {
 				sub += one;
 			}
 		}
+		String subString =s.substring(0,4);
+		System.out.println(subString);
 		System.out.println(sub);
 
 	}
