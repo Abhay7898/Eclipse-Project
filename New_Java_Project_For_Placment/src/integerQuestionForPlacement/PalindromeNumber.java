@@ -2,7 +2,7 @@ package integerQuestionForPlacement;
 
 public class PalindromeNumber {
 	public static void main(String[] args) {
-		int number = 1245;
+		int number = 121;
 		int n = number;
 		int pen = 0;
 		while (number > 0) {

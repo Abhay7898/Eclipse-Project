@@ -10,6 +10,7 @@ public class MergeTwoArraysIntoSingleSortedArrayWithoutDuplicatesInJava {
 		int index = 0;
 		int len = array1.length + array2.length;
 		int newArray[] = new int[len];
+		//To Marge
 		for (int i = 0; i < len; i++) {
 			if (i < array1.length) {
 				newArray[i] = array1[i];
@@ -20,29 +21,38 @@ public class MergeTwoArraysIntoSingleSortedArrayWithoutDuplicatesInJava {
 				index++;
 			}
 		}
-		count=0;
-		int n[]=new int [count];
-		for(int i=0;i<newArray.length;i++) {
-			for (int j = i+1; j < newArray.length; j++) {
-				if(newArray[i]>newArray[j]) {
-					int tem=newArray[j];
-					newArray[j]=newArray[i];
-					newArray[i]=tem;
+		//To find Duplicate
+		count = 0;
+		for (int i = 0; i < newArray.length; i++) {
+			for (int j = i + 1; j < newArray.length; j++) {
+				if (newArray[i] == newArray[j]) {
+					count++;
 				}
-				if (newArray[i]==newArray[j]) {
-					newArray[j]=0;
+			}
+		}
+		//For Shorting
+		for (int i = 0; i < newArray.length; i++) {
+
+			for (int j = i + 1; j < newArray.length; j++) {
+				if (newArray[i] > newArray[j]) {
+					int tem = newArray[j];
+					newArray[j] = newArray[i];
+					newArray[i] = tem;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(newArray));
+		//to Avoid Duplicate
+		array1=new int[len-count];
+		array1[0]=newArray[0];
+		for (int i=0;i<newArray.length;i++) {
+			for (int j = i+1; j < newArray.length; j++) {
+				if(newArray[i]!=newArray[j]) {
 					
 				}
 			}
-			if(newArray[i]!=0) {
-			count++;	
-			}
-			n=new int[count];
-			if(newArray[i]!=0) {
-				n[i]=newArray[i];
-			}
 		}
-		System.out.println(n.length);
+		System.out.println(array1.length);
 		System.out.println(count);
 		System.out.println(Arrays.toString(newArray));
 	}

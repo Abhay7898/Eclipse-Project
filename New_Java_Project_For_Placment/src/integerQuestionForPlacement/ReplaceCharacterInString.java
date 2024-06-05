@@ -11,7 +11,9 @@ public class ReplaceCharacterInString {
 			}
 		}
 		for (int i = 0; i < ch.length; i++) {
-			System.out.print(ch[i]);
+			if (ch[i]!='*') {
+				System.out.print(ch[i]);	
+			}
 		}
 	}
 }

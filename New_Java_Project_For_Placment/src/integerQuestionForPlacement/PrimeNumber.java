@@ -2,7 +2,7 @@ package integerQuestionForPlacement;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
-		int prime = 256;
+		int prime = 2;
 		boolean flage=false;
 		for(int i=2;i<=prime/2;i++) {
 			if(prime%i==0){
