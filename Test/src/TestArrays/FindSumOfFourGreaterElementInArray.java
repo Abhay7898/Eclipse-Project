@@ -25,7 +25,7 @@ public class FindSumOfFourGreaterElementInArray {
 					sum+=array[i];
 				}
 			} else {
-				for (int i = array.length-1; i>=array.length-4; i--) {
+				for (int i = array.length-1; i>array.length-5; i--) {
 					sum+=array[i];
 				}
 			}
