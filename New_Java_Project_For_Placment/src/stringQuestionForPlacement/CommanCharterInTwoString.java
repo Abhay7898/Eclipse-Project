@@ -5,7 +5,9 @@ import java.util.Iterator;
 public class CommanCharterInTwoString {
 	public static void main(String[] args) {
 		String s1 = "thinz sticks";
-		String s2 = "thick bricks";
+		String s2 = "thick briocks";
+		
+		
 		char c1[] = s1.toLowerCase().toCharArray();
 		char c2[] = s2.toLowerCase().toCharArray();
 		s1="";

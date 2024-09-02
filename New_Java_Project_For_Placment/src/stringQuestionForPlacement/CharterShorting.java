@@ -17,7 +17,6 @@ public class CharterShorting {
 				}
 			}
 		}
-
 		System.out.println(Arrays.toString(arr));
 	}
 }

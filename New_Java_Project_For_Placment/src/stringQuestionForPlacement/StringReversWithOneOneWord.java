@@ -3,7 +3,7 @@ package stringQuestionForPlacement;
 public class StringReversWithOneOneWord {
 	public static void main(String[] args) {
 		String st = "hello a world java javatpoint";
-		// 			tniop t avaja vajd 
+		// 			tniop t avaj vajd 
 		String s[] = st.split("\\s");
 		st = "";
 		for (int i = 0; i < s.length; i++) {
