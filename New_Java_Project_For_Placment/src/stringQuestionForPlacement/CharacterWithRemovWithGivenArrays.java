@@ -3,7 +3,7 @@ package stringQuestionForPlacement;
 public class CharacterWithRemovWithGivenArrays {
 	public static void main(String[] args) {
 		char charArry[]= {'h','e','o'};
-		String s="hello world";
+		String s="hello world*";
 		String remove="";
 		char stringArray[]=s.toCharArray();
 		s="";

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeTwoArraysIntoSingleSortedArrayWithoutDuplicatesInJava {
 	public static void main(String[] args) {
-		int array1[] = { 7, -5, 3, 8, -4, 11, -19, 21 };
+		int array1[] = { 7, -5, 3, 8, -4, 11, -19, 21,32};
 		int array2[] = { 6, 13, -7, 0, 11, -4, 3, -5 };
 		int count = 0;
 		int index = 0;
