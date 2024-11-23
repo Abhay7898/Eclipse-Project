@@ -1,16 +1,16 @@
 package stringPrograms;
 
-public class DuplicateAvoidInString {
+import java.util.Iterator;
+
+public class AA {
 	public static void main(String[] args) {
-		String s = "Abhay Garhwal";
-		char ch []=s.toCharArray();
+		String s = "To change this license header, choose License Headers in Project Properties";
+		char ch[] = s.toCharArray();
 		s="";
 		for (int i = 0; i < ch.length; i++) {
-			char check[]=s.toCharArray();
-			boolean flage =false;
-			
+			boolean flage = false;
+			char check []=s.toCharArray();
 			for (int j = 0; j < check.length; j++) {
-				
 				if (ch[i]==check[j]) {
 					flage=true;
 					break;

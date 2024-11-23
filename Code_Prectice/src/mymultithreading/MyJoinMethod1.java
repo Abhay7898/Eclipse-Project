@@ -20,7 +20,7 @@ public class MyJoinMethod1 extends Thread {
 	public static void main(String[] args) throws InterruptedException {
 		MyJoinMethod1 j = new MyJoinMethod1();
 		j.start();
-		j.join(10000);
+		j.join(100);
 		
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Garhwal");

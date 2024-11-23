@@ -2,7 +2,8 @@ package integerQuestionForPlacement;
 
 public class CountUptoNumberIsAddedUntilSingleDigit {
 	public static void main(String[] args) {
-		int number = 1234558383;
+		
+		int number = 123455;
 		boolean flage = true;
 		int newNumber = 0;
 		int count = 0;
@@ -17,6 +18,7 @@ public class CountUptoNumberIsAddedUntilSingleDigit {
 				if (number > 0 && number < 10) {
 					flage = false;
 					System.out.println(count);
+					System.out.println(number);
 				}
 			}
 		}

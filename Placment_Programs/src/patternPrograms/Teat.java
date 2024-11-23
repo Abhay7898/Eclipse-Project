@@ -1,5 +1,9 @@
 package patternPrograms;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.TreeSet;
+
 public class Teat {
 	/*	
 	  1 
@@ -10,14 +14,14 @@ public class Teat {
  6 6 6 6 6 6  
 */
 	public static void main(String[] args) {
-		for (int i = 6; i >=1; i--) {
-			for (int j =i-1; j >=1; j--) {
-				System.out.print(" ");
+		String []s = {"Abhay","raj","hb","fd"};
+		System.out.println(Arrays.toString(s));
+		for (int i = 0; i < s.length; i++) {
+			if (i==3) {
+				
+				s[i]="fddsds";
 			}
-			for (int j = i; j <=6; j++) {
-				System.out.print(j+" ");
-			}
-			System.out.println();
 		}
+		System.out.println(Arrays.toString(s));
 	}
 }

@@ -4,7 +4,8 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 
 public class With_FileWriter_BufferWriter_class {
-	 static public boolean writeInFile(String inputString ,String filePath) {
+	
+	static public boolean writeInFile(String inputString ,String filePath) {
 		FileWriter fw = null;
 		BufferedWriter bw =null;
 		try {

@@ -8,6 +8,7 @@ import java.io.ObjectOutputStream;
 
 public class MySerializationTest {
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		
 		MySerialization my = new MySerialization();
 		System.out.println(my.userName+"___"+my.password);
 		

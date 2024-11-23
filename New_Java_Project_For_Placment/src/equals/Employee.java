@@ -3,6 +3,7 @@ package equals;
 import java.util.Objects;
 
 public class Employee {
+	
 	public int id;
 	public String name;
 	
