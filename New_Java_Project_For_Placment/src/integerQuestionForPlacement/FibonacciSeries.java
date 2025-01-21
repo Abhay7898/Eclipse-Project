@@ -2,7 +2,7 @@ package integerQuestionForPlacement;
 
 public class FibonacciSeries {
 	public static void main(String[] args) {
-		int num = 20;
+		int num = 18;
 		int f1 = -1;
 		int f2 = 1;
 		int f3 = 0;
@@ -10,7 +10,7 @@ public class FibonacciSeries {
 		for (int i = 0; i <= num; i++) {
 			f3 = f1 + f2;
 			System.out.println(f3);
-			if (f3 == num) {
+			if (f3>num) {
 				flage = true;
 				break;
 			}

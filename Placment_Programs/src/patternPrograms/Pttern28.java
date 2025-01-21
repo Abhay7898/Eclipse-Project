@@ -1,7 +1,7 @@
 package patternPrograms;
 
 public class Pttern28 {
-	/*
+	 /*
    * * * * * * *
 	 * * * * *
 	   * * *

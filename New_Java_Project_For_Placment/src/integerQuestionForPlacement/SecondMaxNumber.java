@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SecondMaxNumber {
 	public static void main(String[] args) {
-		int num[] = { 5, 34, 78, 2, 45, 1, 99, 23 };
+		int num[] = { 1, 2, 3, 78, 5, 6, 7, 8, 9, 10 };
 		int firstMax = num[0];
 		int secoundMax = num[1];
 

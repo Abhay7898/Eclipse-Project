@@ -1,7 +1,7 @@
 package patternPrograms;
 
 public class Pattern27 {
-	/**
+/**
     			0
    			   101
               21012

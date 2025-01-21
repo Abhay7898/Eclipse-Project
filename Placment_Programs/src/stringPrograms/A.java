@@ -1,5 +1,6 @@
 package stringPrograms;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -9,8 +10,11 @@ public class A {
 		char c[]=s.toCharArray();
 		Set s1 = new HashSet();
 		for (char d : c) {
-			s1.add(c);
+			s1.add(d);
 		}
+		ArrayList a = new ArrayList();
+		a.add("A");
+		System.out.println(a);
 		System.out.println(s1);
 	}
 }

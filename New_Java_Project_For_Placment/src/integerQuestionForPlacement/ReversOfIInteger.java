@@ -2,7 +2,7 @@ package integerQuestionForPlacement;
 
 public class ReversOfIInteger {
 	public static void main(String[] args) {
-		 int num= 17868;
+		 int num= 167671;
 		 int re=0;
 		 while(num>0) {
 			 int o=num%10;
