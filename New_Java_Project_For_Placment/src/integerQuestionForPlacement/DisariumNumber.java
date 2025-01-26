@@ -4,7 +4,7 @@ public class DisariumNumber {
 	// 135=1+3*3+5*5*5
 	// =1+9+125
 	public static void main(String[] args) {
-		int number = 135;
+		int number = 123;
 		int n=number;
 		int num = 0;
 		int len = String.valueOf(number).length();

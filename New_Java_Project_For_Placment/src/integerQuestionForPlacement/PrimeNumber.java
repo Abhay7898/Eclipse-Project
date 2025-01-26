@@ -3,7 +3,7 @@ package integerQuestionForPlacement;
 public class PrimeNumber {
 	public static void main(String[] args) {
 		
-		int prime = 7;
+		int prime = 13;
 		boolean flage=false;
 		
 		for(int i=2;i<=prime/2;i++) {

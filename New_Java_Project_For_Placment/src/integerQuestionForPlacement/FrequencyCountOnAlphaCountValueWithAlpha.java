@@ -4,7 +4,7 @@ public class FrequencyCountOnAlphaCountValueWithAlpha {
 	public static void main(String[] args) {
 		// in : aasdffaaacc
 		// output : 2a1s1d2f3a2c
-		String input = "aasdffaaacc";
+		String input = "aasdffaaacct";
 		String out = "";
 		char ch[] = input.toCharArray();
 		char firstchar = Character.MIN_VALUE;

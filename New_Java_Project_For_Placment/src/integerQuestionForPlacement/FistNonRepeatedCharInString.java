@@ -2,12 +2,12 @@ package integerQuestionForPlacement;
 
 public class FistNonRepeatedCharInString {
 	public static void main(String[] args) {
-		String s = "strrreeoesttttssysss";
+		String s = "ttrgggrrrrxrrrvfggggdddddwwww";
 		char ch[]= s.toCharArray();
-		char lastChar = Character.MIN_VALUE;
+		char lastChar = ch[0];
 		for(int i=0;i<ch.length;i++) {
 			char c = ch[i];
-			if(c == lastChar) {
+			if(c == lastChar&&i!=0) {
 				continue;
 			}
 			boolean flage = true;
