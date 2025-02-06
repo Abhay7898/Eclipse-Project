@@ -2,7 +2,7 @@ package stringQuestionForPlacement;
 
 public class AnagramProgram {
 	public static void main(String[] args) {
-		String one = "Dormitory";
+		String one = "D*rmitory";
 		String two = "DirotyRom";
 		
 		boolean flage = false;

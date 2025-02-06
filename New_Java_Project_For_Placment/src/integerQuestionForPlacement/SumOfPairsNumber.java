@@ -11,7 +11,7 @@ public class SumOfPairsNumber {
 		for (int i = 0; i <= num.length / 2 + 2; i = i + 2) {
 			intArray[n++] = num[i] + num[i + 1];
 		}
-		
+		System.out.println(num.length / 2 + 2);
 		System.out.println(Arrays.toString(intArray));
 	}
 }

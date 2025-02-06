@@ -5,14 +5,9 @@ public class ReplaceCharacterInString {
 	public static void main(String[] args) {
 		String myName = "domanokz";
 		char ch[]=myName.toCharArray();
-		for(int i=0;i<ch.length-1;i++) {
-			if(ch[i]=='o') {
-				ch[i]='*';
-			}
-		}
-		for (int i = 0; i < ch.length; i++) {
-			if (ch[i]!='*') {
-				System.out.print(ch[i]);	
+		for(int i=0;i<ch.length;i++) {
+			if(ch[i]!='o') {
+				System.out.print(ch[i]);
 			}
 		}
 	}

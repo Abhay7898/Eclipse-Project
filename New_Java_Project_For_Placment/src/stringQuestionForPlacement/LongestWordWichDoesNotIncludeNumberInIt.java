@@ -2,7 +2,7 @@ package stringQuestionForPlacement;
 
 public class LongestWordWichDoesNotIncludeNumberInIt {
 	public static void main(String[] args) {
-		String s = "Have the function LongestWordsen take the sen parameter being passed and return the";
+		String s = "Have the function Longest4Wordsen take the sen parameter being passed and return the";
 		String sArray[] = s.split("\\s");
 		s = "";
 		for (int i = 0; i < sArray.length; i++) {
